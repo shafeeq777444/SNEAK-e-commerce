@@ -1,0 +1,36 @@
+.reg-image{
+    position: relative;
+    left:-6rem;
+    width:28rem;
+}
+.reg-left{
+    width: 10rem;
+   position: relative;
+   top: -18rem;
+   left:2rem
+    
+}
+.de{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:480){
+    .formik{
+        width:20rem
+    }
+    .im{
+        width: 0rem;
+    }
+    .img img{
+        display: none;
+    }
+    
+}
